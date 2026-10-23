@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+data/
+agent.log
+.instance.lock
+.DS_Store
+
+# Локальные отчёты, протоколы, снимки и упаковка для прежнего формата сдачи.
+examples/*
+!examples/sample.txt
+!examples/model_pricing.json
+build_submission.py
+*.zip
+*ДЗ*.md
